@@ -1,45 +1,36 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
-    <title>About Racquel Tomaz | Microsoft Digital Strategies</title>
+	<meta charset="utf-8">
+	<title>About Racquel Tomaz | Microsoft Digital Strategies</title>
+	<script>
+		function academicBackground(bg1, bg2, bg3) {
+	var paragraph ='With a ' + bg1 +', ' + bg2 + ' and ' + bg3 + ' background, I am the best choice to create and manage successful, targeted content.';
+	return paragraph
+}
+	</script>
 </head>
-
 <body>
-    <header>
-        <a href="index.html"><img src="images/image_head3.jpg" alt="Surface Tablet"></a>
-    </header>
-
-    <nav>
-        <ul>
-            <li><a href="senait.html">Senait</a></li>
-            <li><a href="alana.html">Alana</a></li>
-            <li><a href="racquel.html">Racquel</a></li>
-            <li><a href="russel.html">Russel</a></li>
-            <li><a href="alex.html">Alex</a></li>
-        </ul>
-    </nav>
-
-    <div id="content">
-
-        <div class="profile_img">
-            <img src="images/racquel.png" alt="racquel">
-        </div>
-        
-        <div class="bio">
-
-                <h1>Racquel Tomaz</h1>
-                <h2>Content Director</h2>
-
-            <p>I build <span class="highlight">relationships</span>. I help businesses create a bridge to attract new clients, reach out to their consumers and engage with their audiences. I figure out the best solution for communication issues by relying on my analytical mindset, bold decision-making, storytelling skills and determination.</p>
-
-            <p>With a communications, public relations and interactive media background, I am the best choice to create and manage successful, targeted content.</p>
-        </div>
-    </div>
-    
-   <footer><p>&copy; Copyright 2016 Microsoft</p></footer>
+	<nav>
+		<ul>
+		<li><a href="senait.html">Senait</a></li>
+		<li><a href="alana.html">Alana</a></li>
+		<li><a href="racquel.html">Racquel</a></li>
+		<li><a href="russel.html">Russel</a></li>
+		<li><a href="alex.html">Alex</a></li>
+		</ul>
+	</nav>
+	<img src="racquel.png" width="200px">
+	<div>
+		<h1>Racquel Tomaz</h1>
+		<h2>Content Director</h2>
+	</div>
+		<p class="bio">I build <span class="highlight"> relationships</span>. I help businesses create a bridge to attract new clients, reach out to their consumers and engage with their audiences. I figure out the best solution for communication issues by relying on my analytical mindset, bold decision-making, storytelling skills and determination.</p>
+		<br>
+		<br>
+		<button onclick="getElementById('background').innerHTML=academicBackground('communications', 'public relations', 'interactive media')">See more</button>
+		<p id="background"></p>
+	<footer>
+	</footer>
 </body>
-
 </html>
