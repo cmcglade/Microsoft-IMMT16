@@ -1,0 +1,55 @@
+<!-- Alex Schwartzberg, About Page, Sept 30 2016-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Alex About Me</title> 
+	<style>
+		body {
+			background-color: #C0C0C0; /* this hex code is for silver or light gray*/
+		}
+		h1, h2 {
+			text-align: center; /* puts header 1 and 2 into the center of the page*/
+		}
+		.myname {
+			color: #990000;
+		}
+		.gaming, .education {
+			font-size: 20px;
+		}
+		.favgames {
+			list-style-type: none; /* removes the bullets fromt the list */
+			font-size: 20px;
+		} /*great job on styles*/
+	</style><!--you haven't closed your head in the right place: closing head tag should go before opening body tag-->
+<body>
+	<div>
+		<h1 class="myname">Alex Schwartzberg</h1>
+
+		<h2>About Me</h2>
+
+		<img src="sloth pic.jpg" width="200px" alt="pic of sloth in space" align="right"> <!--should put image width inside a style attribute ie style="width: 200px;"-->
+	</div>
+
+	<div>
+		<p class="gaming">My name is <span class="myname"><b>Alex Schwartzberg</b></span> I am 22. <br> Gaming is a hobby and passion of mine, below you can find a list of some of my favorite games.</p>
+		<!--don't put the bold styling inline: put it in the styles tag in the head of the doc-->
+
+		<ul class="favgames">Favorite Games <!--can't put text in the ul tag--> 
+			<li><a href="http://na.leagueoflegends.com/" target="_blank">League of Legends</a></li><!--nice job on links!-->
+			<li><a href="https://playoverwatch.com/en-us/" target="_blank">Overwatch</a></li>
+			<li><a href="http://us.battle.net/hearthstone/en/" target="_blank">Hearthstone</a></li>
+		</ul>
+	</div>
+
+	<hr> <!--  puts a line break in the page. Self closing -->
+
+	<div>
+		<h3>Education</h3>
+
+		<p class="education">I graduated from the University of Guelph and am currently attending Centennial College in the Interactive Media Management program.</p>
+
+	</div>
+</body>
+</head>
+</html>

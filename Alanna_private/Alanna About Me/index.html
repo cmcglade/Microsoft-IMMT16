@@ -1,0 +1,134 @@
+<!--'             _                     __  __            _   _       
+'       /\   | |                   |  \/  |          | | (_)      
+'      /  \  | | __ _ _ __   __ _  | \  / | __ _ _ __| |_ _ _ __  
+'     / /\ \ | |/ _` | '_ \ / _` | | |\/| |/ _` | '__| __| | '_ \ 
+'    / ____ \| | (_| | | | | (_| | | |  | | (_| | |  | |_| | | | |
+'   /_/    \_\_|\__,_|_| |_|\__,_| |_|  |_|\__,_|_|   \__|_|_| |_|
+'                                                                 
+'  -->
+
+
+
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>About Me</title>
+
+
+    <!-- -->
+    <script>
+        function addTotargetGroup(user, ctrl) {
+            ctrl.setAttribute('disabled', true);
+        }
+    </script>
+<!--great effort and I know you are trying to do some really cool stuff!  watch the details, errors are creeping in.  Also in terms of Usability, be cautious about using on hover effects that are the same on non linkable elements as well as linked elements, it's a bit confusing on the buttons when the pointer appears yet there is no link, and when the buttons shake when there is and is not a link.  broken link under portfolio button.-->
+</head>
+
+<body>
+
+    <!--    <!-- The parent component --> <!--watch your commenting here, you have two opening comment tags -->
+    <div class="curtain">
+        <div id="bottom"></div>
+
+        <!-- The component wrapper -->
+        <div class="curtain_wrapper">
+
+            <input class="checkbox" type="checkbox" name="actor-checkbox" onclick="addTotargetGroup('user',this);" id="check_box" />
+
+
+
+
+            <!-- The left curtain panel -->
+            <div class="curtain_panel curtain_panel--left">
+                <img src="images/curtain_left.png" alt="left curtain">
+            </div>
+            <!-- curtain_panel -->
+
+            <!--behind the curtain panels -->
+            <div class="reveal">
+
+
+
+                <div id="mind_map">
+
+
+                    <h1>A Little About <span>Me</span>
+                    <br>I'm....</h1>
+
+
+                    <div id="layer_1">
+                        <div id="pt1">
+                            <button class="shake">Enthusiastic</button>
+                        </div>
+                        <div id="pt2">
+                            <button class="shake1">Kind</button>
+                        </div>
+                        <div id="pt3">
+                            <button class="shake3">Inventive
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="layer_2">
+                        <div id="pt4">
+                            <button class="shake2">Tenacious</button>
+                        </div>
+                        <div id="pt5">
+                            <button class="grows">
+                                <img src="images/logo.png">
+                                <p>Alana Martin</p>
+                                <hr>
+                            </button>
+                        </div>
+                        <div id="pt6">
+                            <button class="shake2">Funny</button>
+                        </div>
+                    </div>
+
+                    <div id="layer_3">
+                        <div id="pt7">
+                            <button class="shake3">Adventurous</button>
+                        </div>
+                        <div id="pt8">
+                            <button class="shake1">
+                                <a href="http://www.amartin.ca">Check Out My Portfolio</a>
+                            </button>
+                        </div>
+                        <div id="pt9">
+                            <button class="shake"></button>
+                        </div>
+                    </div>
+<nav>
+                        <ul>
+                            <li><a href="http://www.amartin.c">Portfolio</a></li>
+                            <li><a href="#bottom">Top</a></li>
+                        </ul>
+                    </nav>
+
+                   
+                </div>
+
+            </div>
+            <!-- reveal -->
+
+            <!-- The right curtain panel -->
+            <div class="curtain_panel curtain_panel--right">
+                <img src="images/curtain_right.png" alt="right curtain">
+
+            </div>
+            <!-- curtain_panel -->
+
+        </div>
+        <!-- curtain__wrapper -->
+
+    </div>
+
+    <!-- curtain -->
+
+
+</body>
+
+</html>
