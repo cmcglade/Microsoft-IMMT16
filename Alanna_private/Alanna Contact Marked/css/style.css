@@ -1,0 +1,151 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
+body
+{
+    background-image: url("../img/purple_glass.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #330066;
+}
+
+h1
+{
+    font-size: 30pt;
+}
+/*//////////////////////////////        HEADER       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+header
+{
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+header span
+{
+    font-size: 1.5em;
+}
+
+hr 
+{
+    border-bottom: 3px dotted rgba(255, 255, 255, 0.5);
+}
+/*//////////////////////////////        Portfolio       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+
+#portfolio
+{
+    width: 50%;
+    margin-top: -50px;
+    margin: auto;
+    text-align: center;
+}
+h2
+{
+    font-size: 18pt;
+}
+
+#portfolio span
+{
+    color: #ff0080;
+}
+
+#portfolio a
+{
+    color: #330066;
+    text-decoration: none;
+    border-bottom: 3px solid #ff0080;
+}
+
+#portfolio a:hover
+{
+    color: white;
+}
+
+ul
+{
+    margin-top:50px;
+    display: inline-block;
+    width: 100%;
+}
+
+ul li
+{
+    
+    float: left;
+    width: 33.33%;
+    font-size: 2em;
+    color: #fff;
+}
+
+
+
+/*//////////////////////////////        FORM        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+#form
+{
+    width: 50%;
+    margin: 50px auto;
+}
+
+h3
+{
+    font-size: 24pt;
+    text-align: center;
+    color: #ff0080;
+}
+
+#form p
+{
+    font-size: 24pt;
+    text-align: center;
+    color: #330066;
+    background-color: #ffffff;
+    text-align: center;
+    padding 5px;
+}
+
+label
+{
+    display: none;
+}
+
+input[type=text], input[type=email], input[type=tel], input[type=password], textarea
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]
+{
+    width: 30%;
+    background-color: #330066;
+    color: white;
+    font-size: 16pt;
+    padding: 14px 20px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inherit;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+}
+
+input[type=submit]:hover
+{
+    background-color: white;
+    color: #330066;
+   
+}
+
+textarea
+{
+    height: 100px;
+}

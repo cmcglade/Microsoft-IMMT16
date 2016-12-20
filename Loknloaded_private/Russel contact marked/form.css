@@ -1,0 +1,22 @@
+	form, p {
+			font-family: Courier;
+			color: #4268a5;
+			text-align: left;
+            float: center;			
+		}
+    
+    h1 {
+        font-family: Calibri;
+        color: #4268a5;
+        text-align: center;
+    }
+
+    body {
+        background: url(simplewallpaper.jpg)
+    }
+
+    echo {
+        font-family: Courier;
+        color: #4268a5;
+        text-align: middle;
+    }

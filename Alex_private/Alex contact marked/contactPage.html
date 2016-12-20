@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head><!--you lost marks on details: didn't include a screen grab of your code validation, you should have collected one additional piece of information in your form, broken image link on results page-->
+	<meta charset="utf-8">
+	<title>Alex Webpage</title> 
+	<link rel="stylesheet" type="text/css" href="contactPage.css">
+</head>
+<body>    
+	<div>
+		<h1 class="myName">Alex Schwartzberg</h1>
+
+		<h2>About Me</h2>
+
+		<img src="slothPic.jpg" style="width: 200px;" alt="pic of sloth in space"> 
+	</div>
+
+	<div>
+		<p id="gaming">My name is <span class="myName"><b>Alex Schwartzberg,</b></span> I am 22.<br>
+	 	Gaming is a hobby and passion of mine, below you can find a list of some of my favorite games.
+		</p>
+
+		<ul id="favGames">
+			<li>Favorite Games</li>
+			<li><a href="http://na.leagueoflegends.com/" target="_blank">League of Legends</a></li>
+			<li><a href="https://playoverwatch.com/en-us/" target="_blank">Overwatch</a></li>
+			<li><a href="http://us.battle.net/hearthstone/en/" target="_blank">Hearthstone</a></li>
+		</ul>
+	</div>
+
+	<hr> <!--  puts a line break in the page. Self closing -->
+
+	<div>
+		<h3>Education</h3>
+
+		<p id="education">I graduated from the University of Guelph and am currently attending Centennial College in the Interactive Media Management program.</p>
+
+	</div>
+
+	<hr>
+
+	<h2>Contact Form</h2>
+	<div>
+		<form action="contactPage.php" method="POST"> <!-- form for the contact page -->
+			First Name: <input class="formInput" type="text" name="fName" required><br> <!-- required gives a notification if the field is left empty-->
+			Last Name: <input class="formInput" type="text" name="lName" required><br>
+			Phone Number: <input class="formInput" type="tel" name="phoneNumber" required><br>
+			Password: <input class="formInput" type="password" name="password" required><br>
+			<textarea class="formInput" rows="3" name="comment" required>Comment Here</textarea><br/>	<!-- textarea makes the comments box -->
+			<input type="submit">
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body
+{
+font-size: 13px;
+padding: 20px;
+font-style: Verdana, Tahoma, sans-serif;
+ background-color: #eaeae1
+}
+ h2 {
+margin-bottom: 20px;
+color: #773e1a;
+font-size: 20px;
+
+ }
+
+
+ input {
+
+ 	padding: 10px;
+ 	border: 3px solid #fcf5ef;
+ 	width: 200px;
+ }
+ input, textarea {
+padding: 10px;
+border: 7px solid #d6d1cd;
+color: #99999;
+
+ }
+
+  .submit input {
+  	width: 100px;
+  	height: 40px;
+  	background-color: #773e1a;
+  	color: #f7f7f7;
+  }
+
+  .form label {
+  	color: #773e1a;
+	font-size: 15px;
+  }
