@@ -1,0 +1,117 @@
+/*Class Styling*/
+.myName {
+    color: #990000;
+}
+.formInput{
+	margin-top: 5px;
+}
+
+/*Id Styling*/
+#gaming, #education {
+    font-size: 20px;
+}
+#favGames {
+    list-style-type: none; /* removes the bullets fromt the list */
+    font-size: 20px;
+}
+#phpSubmit {
+	border: 5px solid black;
+}
+#phpSubmit {
+	text-align: center;
+}
+
+#phpSloth {
+	margin-top: 10px;
+	margin-left: 40%;
+}
+
+/* Gallery Styling */
+
+.bigpic {
+	background-color: #C0C0C0;
+}
+.gallery-photos {
+	padding: 20px;
+
+}
+.gallery-photos .big-photo {
+	display: block;
+	background-color: #ffffff;
+	padding: 3px;
+	border: 1px solid #e7e7e7;
+	margin-right: 210px;
+}
+.gallery-photos .big-photo img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.gallery-photos .photo-thumbnails {
+	float: right;
+	width: 210px;
+}
+.gallery-photos .photo-thumbnails .thumbnail {
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	width: 30%;
+	height: 63px;
+	cursor: pointer;
+	padding: 3px;
+	border: 1px solid #e7e7e7;
+	margin-left: 3.33333%;
+	margin-bottom: 6px;
+	opacity: 0.4;
+}
+.gallery-photos .photo-thumbnails .thumbnail.current {
+	opacity: 1;
+	background-color: #ffffff;
+}
+.gallery-photos .photo-thumbnails .thumbnail .thumbnail-inner {
+	height: 100%;
+	overflow: hidden;
+}
+.gallery-photos .photo-thumbnails .thumbnail img {
+	display: block;
+	width: auto;
+	max-height: 100%;
+	margin: 0 auto;
+}
+
+#menu{
+    padding-top: 5px;
+    padding-left: 45%;
+    background-color: #293b82;
+    border-radius: 5px;
+    display: block;
+    height: 50px;
+    width: 80%;
+}
+
+.menuButton{
+    margin-top: 5px;
+    margin-left: 10px;
+    padding: 1px;
+    padding-top: 7px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 30px;
+    background-color: #c9c1dd;
+    display: block;
+    float: left;
+}
+
+ body {
+ 	margin: 20px;
+    background-color: #C0C0C0; /* this hex code is for silver or light gray */
+}
+h1 {
+    text-align: center; /* puts header 1 into the center of the page */
+}
+
+
+

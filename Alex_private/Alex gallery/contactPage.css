@@ -1,0 +1,36 @@
+ body {
+ 	margin: 20px;
+    background-color: #C0C0C0; /* this hex code is for silver or light gray */
+}
+h1 {
+    text-align: center; /* puts header 1 into the center of the page */
+}
+
+/*Class Styling*/
+.myName {
+    color: #990000;
+}
+.formInput{
+	margin-top: 5px;
+}
+
+/*Id Styling*/
+#gaming, #education {
+    font-size: 20px;
+}
+#favGames {
+    list-style-type: none; /* removes the bullets fromt the list */
+    font-size: 20px;
+}
+#phpSubmit {
+	border: 5px solid black;
+}
+#phpSubmit {
+	text-align: center;
+}
+
+#phpSloth {
+	margin-top: 10px;
+	margin-left: 40%;
+}
+

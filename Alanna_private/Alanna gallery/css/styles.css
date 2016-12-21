@@ -1,0 +1,59 @@
+@import "reset.css";
+
+html,
+body {
+    background: #330066;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+     font-size: 100%; 
+  overflow-y: scroll; 
+  -webkit-text-size-adjust: 100%; 
+  -ms-text-size-adjust: 100%;
+}
+
+.lb-image
+{
+    width: 1000px;
+    height: 600px;
+}
+
+.bgimage {
+    background-image: url('../images/main.jpg');
+    background-size: contain;
+    height: 500px;
+    background-repeat: no-repeat;
+    top: 0;
+}
+
+p{
+    color: #ffffff;
+}
+
+h3{
+    font-size: 18pt;
+    color: rgba(255, 255, 255, 0.44);
+}
+
+
+.container
+{
+    margin-top: 50px;
+}
+
+
+h1
+{
+    font-size: 30pt;
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.caption
+{
+    margin:10px;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 22pt;
+}

@@ -1,0 +1,190 @@
+/* Racquel Tomaz Soares - Stylesheet */
+/* CSS file include styles for other assignments (pages) as well.
+Not all of them were used in this current assignment.
+Styles specific for the current assignment are at the top */
+
+
+.container {
+	/* border: 1px solid black; */
+	width: 80%;
+	margin-top: 20px;
+	}
+
+div.img-thumbnail {
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+img.img-thumbnail {
+	border: 0px;
+	border-radius: 12px;
+}
+
+.caption {
+	text-align: center;
+}
+
+div.caption > h3{
+	margin-top: 10px;
+	color: #e96757;
+}
+
+div.caption > p{
+	font-size: 12px;
+}
+
+.btn, .btn:visited {
+	color: #ffffff;
+	font-size: 13px;
+	background-color: #e96757;
+}
+
+.btn:hover {
+	color: #e96757;
+	background-color: #ffffff;
+	border-color: #e96757;
+}
+
+h1 {
+		font-family: Helvetica, Arial, sans-serif;
+		color: #404040;
+		font-size: 26px;
+		text-align: center;
+	}
+
+h2 {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #404040;
+	font-size: 22px;
+	text-align: center;
+	}
+
+div.project > h3 {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #ffffff;
+	font-size: 18px;
+	text-align: center;
+	}
+
+p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	padding: 5px;
+	}
+
+div.project > p {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	color: #e2e2e2;
+	margin-left: 10%;
+	margin-right: 10%;
+	}
+
+nav {
+	background-color: #e96757;
+	font-size: 18px;
+	text-align: center;
+	}
+
+header ul {
+	padding: 0;
+	margin: 0;
+	}
+
+header li {
+	list-style: none;
+    display: inline-block;
+    font-family: helvetica, arial, sans-serif;
+    width: 15%;
+    text-align: center;
+  	}
+
+nav a:link, nav a:visited {
+	text-decoration: none;
+    color: #ffffff;
+    display: block;
+ 	}
+  
+nav a:hover {
+    background-color: #404040;
+	}
+
+.project a:link, .project a:visited {
+	color: #e96757;
+	}
+	
+.project a:hover {
+	text-decoration: none;
+	}
+
+span {
+	color: #e96757;
+	font-weight: bold;
+	}
+
+.logo {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	}
+
+.highlight{
+	font-size: 18px;
+	color: #e96757;
+	text-align: center;
+	}
+
+.profile {
+	text-align: center;
+	}
+
+.project {
+	background-color: #404040;
+	/* border: 1px solid black; */
+	width: 80%;
+	margin-left: 10%;
+	padding: 10px;
+	}
+
+hr {
+	width: 40%;
+	}
+
+	
+.contact {
+	margin-left: 35%;
+	margin-right: 35%;
+	}
+
+.form {
+	font-size: 12px;
+	margin-bottom: 5px;
+	padding: 0px;
+	}
+
+.field {
+	width: 100%;
+	height: 20px;
+	}
+
+.message {
+	width: 100%;
+	height: 100px;
+	}
+
+.submit {
+	background-color: #e96757;
+	color: white;
+	font-size: 12px;
+	height: 35px;
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	}
+
+h3 {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #404040;
+	font-size: 18px;
+	text-align: center;
+	}

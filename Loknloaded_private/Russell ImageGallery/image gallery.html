@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+  <!--the assignment was to use either the jquery we learned in class or the bootstrap classes we learned in class, you have not used either, in fact you haven;t even linked to your own stylesheet only the stylesheet called lightbox which I assume you didn't code yourself.  You can't use someone else's stylesheet.-->
+
+    <title>Image Gallery</title>
+</head>
+<body>
+
+<h2>Chef's Gallery</h2>
+
+<div>
+          <!--image1 -->
+      <a class="image1" href="img/02-spanish-omelette.jpg" data-lightbox="food" data-title="The Ultimate Spanish Omelette">
+      <img class="omelette" src="img/02-spanish-omelette.jpg" alt="omelette" width="300" height="300" /></a><!--why does each image link get a different class?  why does this image get a class called omelette?  where are these styles in your stylesheet?-->
+
+          <!--image2 -->
+      <a class="image2" href="img/03-seafood-pasta.jpg" data-lightbox="food" data-title="Crazy Seafood Fettucine Alfredo">
+      <img class="pasta" src="img/03-seafood-pasta.jpg" alt="pasta" width="300" height="300"/></a>
+
+          <!--image3 -->
+      <a class="image3" href="img/04-ramen-cabonara.jpg" data-lightbox="food" data-title="Fusion between Ramen and a regular Carbonara">
+      <img class="ramen" src="img/04-ramen-cabonara.jpg" alt="ramen" width="300" height="300" /></a>
+
+          <!-- image4 --> 
+      <a class="image4" href="img/05-bluecheese-pulledpork-poutine.jpg" data-lightbox="food" data-title="Pulled Pork Poutine with Blue Cheese Fries">
+      <img class="poutine" src="img/05-bluecheese-pulledpork-poutine.jpg" alt="poutine" width="300" height="300"/></a>
+
+
+</div>
+
+<div style="padding:6px;"><!--don;t put styles inline, they should go in stylesheet-->
+  <p>Welcome to my gallery! <br> The images in this gallery will be of the recipes that I have personally cooked and created, <br> inspired by some of the most famous chefs around the world!.</p>
+  <p>If you want to see more of these images, be sure to follow me on social media!</p>
+</div>
+
+<script src="js/lightbox.js"></script>
+
+</body>
+</html>
